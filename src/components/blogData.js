@@ -1,6 +1,6 @@
 // blogData.js
-import blogImg from '../assets/images/blog-img.webp';
-import pizza from '../assets/images/pizza.jpg';
+import blogImg from '../assets/images/ai_blog.webp';
+import mobileImg from "../assets/images/mobile-apps-money-management.webp"
 
 export const blogPosts = [
 {
@@ -119,78 +119,88 @@ export const blogPosts = [
   ]
 },
 {
-  id: 'best-way-to-make-money',
-  title: 'The Best Way to Make Money',
+  id: 'mobile-apps-money-management',
+  title: 'The Impact of Mobile Apps on Modern Money Management',
   date: 'July 18 2025',
-  category: 'Finance',
-  image: blogImg, // Replace with actual image import or URL
+  category: 'Digital Banking',
+  image: mobileImg, // Replace with the appropriate image import
   content: [
     {
       type: 'paragraph',
-      text: 'In a world where everyone is searching for financial freedom, the question “What’s the best way to make money?” never gets old. Whether you’re a student, a full-time professional, or someone looking to start fresh, the key to making money isn’t just working hard—it’s working smart.'
+      text: 'In the digital era, mobile apps have transformed how individuals handle their finances. With the rise of mobile banking apps, consumers now have seamless access to financial services, ensuring convenience and security. Modern banking applications are being continuously enhanced by AI in banking, making digital financial services more intuitive, efficient, and accessible. As more people adopt internet banking, the era of traditional banking is rapidly giving way to innovations enabled by the digital banking platform and e banking app solutions.'
     },
     {
-      type: 'subheading',
-      text: '1. Start with What You Know'
-    },
-    {
-      type: 'paragraph',
-      text: 'Before chasing the next big thing, look at your skills and interests. Can you write? Design? Fix computers? Teach? Turning a skill into a freelance gig or side hustle is one of the quickest ways to start making money.'
-    },
-    {
-      type: 'subheading',
-      text: '2. Invest in Your Future'
+      type: 'heading',
+      text: 'How Mobile Apps Revolutionized Financial Services'
     },
     {
       type: 'paragraph',
-      text: 'Investing—whether in stocks, real estate, or mutual funds—is one of the smartest ways to grow wealth over time. You don’t need to be rich to start investing. With apps like Robinhood, Fidelity, or Wealthfront, you can start with as little as $5.'
+      text: 'The evolution from brick-and-mortar banks to advanced digital banking platforms is reshaping the entire industry. Customers no longer need to visit physical branches for routine transactions or complex financial tasks; instead, mobile banking and internet banking provide on-the-go solutions that enhance the overall user experience.'
     },
     {
-      type: 'subheading',
-      text: '3. Build Passive Income Streams'
-    },
-    {
-      type: 'paragraph',
-      text: 'Passive income is money you earn with minimal effort after the initial setup.'
+      type: 'heading',
+      text: 'Benefits of Mobile Banking Apps'
     },
     {
       type: 'list',
       items: [
-        'Creating digital products (ebooks, courses, stock photos)',
-        'Renting out property or space',
-        'Investing in dividend-paying stocks'
+        '24/7 access to accounts and services',
+        'Real-time transaction alerts and updates',
+        'Seamless payment transfers and bill payments',
+        'Personalized financial insights and budgeting tools'
       ]
     },
     {
-      type: 'paragraph',
-      text: 'The best part? You make money while you sleep.'
+      type: 'heading',
+      text: 'The Role of AI in Mobile Banking'
     },
     {
       type: 'subheading',
-      text: '4. Start a Small Online Business'
+      text: 'Personalized Banking Experiences'
     },
     {
       type: 'paragraph',
-      text: 'Thanks to tools like Shopify, Etsy, and Amazon, launching an online business has never been easier. Whether it’s selling handmade crafts, drop-shipping, or print-on-demand, e-commerce is a low-barrier entry point to entrepreneurship.'
+      text: 'AI in banking is making money management more intuitive. Algorithms analyze user behavior and transaction history to provide real-time financial insights, spending trends, and smart saving suggestions. This level of personalization is only possible through digital banking platforms that integrate machine learning.'
     },
     {
       type: 'subheading',
-      text: '5. Learn and Adapt'
+      text: 'Smart Fraud Detection and Security'
     },
     {
       type: 'paragraph',
-      text: 'The economy and technology change fast. Stay curious. Take online courses. Watch market trends. Learn about AI, marketing, or coding. The more adaptable you are, the more money-making opportunities you\'ll spot.'
+      text: 'AI-driven mobile apps offer advanced fraud detection mechanisms. They flag unusual transactions, use biometric authentication, and monitor user behavior patterns to ensure that financial services remain safe and secure.'
     },
     {
       type: 'heading',
-      text: 'Final Thoughts'
+      text: 'The Latest Developments in the <a href="">Banking Industry</a>'
+    },
+    {
+      type: 'subheading',
+      text: 'Rise of Neobanks and Super Apps'
     },
     {
       type: 'paragraph',
-      text: 'There’s no “one size fits all” when it comes to making money. The best way for you depends on your goals, skills, and lifestyle. But the golden rule is the same for everyone: take action. Start small, stay consistent, and grow smart.'
+      text: 'The latest development in the banking industry is the emergence of digital-only banks or neobanks. These institutions operate entirely through mobile banking apps, offering seamless, 24/7 digital financial services. Some super apps now integrate banking, payments, lending, and insurance into one e banking app, streamlining financial life for users.'
+    },
+    {
+      type: 'subheading',
+      text: 'Integration of Internet Banking and Mobile Banking'
+    },
+    {
+      type: 'paragraph',
+      text: 'The line between internet banking and mobile banking is blurring as financial institutions create unified platforms. Whether on desktop or smartphone, users enjoy consistent features, access, and service quality across all digital touchpoints.'
+    },
+    {
+      type: 'heading',
+      text: 'Conclusion'
+    },
+    {
+      type: 'paragraph',
+      text: 'The impact of mobile apps on modern money management is undeniable. With advancements like AI in banking, personalized experiences, and the growth of digital banking platforms, today\'s consumers enjoy unprecedented control and convenience. As mobile apps continue to evolve, the future of financial services will become even more user-centric, intelligent, and seamless—ushering in a new era of smart money management driven by technology and innovation.'
     }
   ]
 }
+
 
 ];
 

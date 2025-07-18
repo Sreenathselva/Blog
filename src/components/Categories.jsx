@@ -7,17 +7,18 @@ const Categories = () => {
     <div id="categories">
       <div className="categories-container">
         {blogPosts.map((post) => (
-          <div className="category-box" key={post.id}>
-            <div className="category-img">
-              <img src={post.image} alt={post.title} />
+          <Link to={`/blog/${post.id}`}key={post.id} className="category-link">
+            <div className="category-box" >
+              <div className="category-img">
+                <img src={post.image} alt={post.title} />
+              </div>
+              <div className="cat-details">
+                <div className="category-name">{post.title}</div>
+
+                  Read More...
+              </div>
             </div>
-            <div className="cat-details">
-              <div className="category-name">{post.title}</div>
-              <Link to={`/blog/${post.id}`} className="category-link">
-                Read More...
-              </Link>
-            </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
